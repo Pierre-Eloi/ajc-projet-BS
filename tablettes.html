@@ -11,7 +11,7 @@
 <body>
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="tablettes.html">
+      <a class="navbar-brand" href="home.html">
         <img src="img/logo.jpg" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -55,22 +55,7 @@
     <div class="row">
       <h3>Tablette chocolat au lait</h3>
       <div class="col-sm-3">
-        <img class="image-gauche" src="img/choc1.png" alt="Tablette1" style="width:150px;">
-        <div class="form-group">
-          <label for="qty">Quantité:
-          <select class="form-control input-sm" size="1" id="qty">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-            <option>6</option>
-            <option>7</option>
-            <option>8</option>
-            <option>9</option>
-            <option>10</option>
-          </select>
-        </div>
+        <img class="image-gauche" src="img/choc1.png" alt="Tablette1" style="width:150px;">        
       </div>
       <div class="col-sm-5">
         <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -82,48 +67,50 @@
           Pellentesque venenatis nunc porttitor congue aliquet. Donec congue semper diam, 
           in vestibulum lorem placerat et. Suspendisse potenti. Vestibulum tempus convallis
         </p>
-        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#myModal">Ajouter au panier</button>
       </div>
-      <div class="modal" id="myModal">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <!-- Modal Header -->
-            <div class="modal-header">
-              <h4 class="modal-title">Chocolate</h4>
-              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-            </div>
-            <!-- Modal body -->
-            <div class="modal-body">
-              Votre article a été ajouté avec succés au panier.
-            </div>
-            <!-- Modal footer -->
-            <div class="modal-footer">
-              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+    </div>
+    <div class="row my-3">
+      <div class="col-sm-3">        
+        <label for="qty">Quantité:
+          <select class="form-control input-sm" size="1" id="qty">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option>10</option>
+          </select>
+        </label> 
+      </div> 
+      <div class="col-sm-5"> 
+        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#myModal">Ajouter au panier</button>
+        <div class="modal" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Chocolate</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                Votre article a été ajouté avec succés au panier.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+              </div>
             </div>
           </div>
-        </div>
+        </div>  
       </div>
     </div>
     <hr> 
     <div class="row">
       <h3>Tablette chocolat noir</h3>
       <div class="col-sm-3">
-        <img class="image-gauche" src="img/choc2.png" alt="Tablette2" style="width:150px;">
-        <div class="form-group">
-          <label for="qty">Quantité:
-          <select class="form-control input-sm" size="1" id="qty">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-            <option>6</option>
-            <option>7</option>
-            <option>8</option>
-            <option>9</option>
-            <option>10</option>
-          </select>
-        </div>
+        <img class="image-gauche" src="img/choc2.png" alt="Tablette2" style="width:150px;">        
       </div>
       <div class="col-sm-5">
         <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -134,48 +121,50 @@
           Aliquam erat volutpat. In commodo viverra nibh, ac lacinia eros mattis at. 
           Pellentesque venenatis nunc porttitor congue aliquet. Donec congue semper diam, 
         </p>
+      </div>  
+    </div>
+    <div class="row my-3">
+      <div class="col-sm-3">        
+        <label for="qty">Quantité:
+          <select class="form-control input-sm" size="1" id="qty">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option>10</option>
+          </select>
+        </label> 
+      </div> 
+      <div class="col-sm-5"> 
         <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#myModal">Ajouter au panier</button>
-      </div>
-      <div class="modal" id="myModal">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <!-- Modal Header -->
-            <div class="modal-header">
-              <h4 class="modal-title">Chocolate</h4>
-              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-            </div>
-            <!-- Modal body -->
-            <div class="modal-body">
-              Votre article a bien été ajouté au panier.
-            </div>
-            <!-- Modal footer -->
-            <div class="modal-footer">
-              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        <div class="modal" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Chocolate</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                Votre article a été ajouté avec succés au panier.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+              </div>
             </div>
           </div>
-        </div>
+        </div>  
       </div>
     </div>
     <hr> 
     <div class="row">
       <h3>Tablette chocolat lait sablé crousti</h3>
       <div class="col-sm-3">
-        <img class="image-gauche" src="img/choc3.png" alt="Tablette3" style="width:150px;">
-        <div class="form-group">
-          <label for="qty">Quantité:
-          <select class="form-control input-sm" size="1" id="qty">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-            <option>6</option>
-            <option>7</option>
-            <option>8</option>
-            <option>9</option>
-            <option>10</option>
-          </select>
-        </div>
+        <img class="image-gauche" src="img/choc3.png" alt="Tablette3" style="width:150px;">      
       </div>
       <div class="col-sm-5">
         <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -186,48 +175,50 @@
           Aliquam erat volutpat. In commodo viverra nibh, ac lacinia eros mattis at. 
           Pellentesque venenatis nunc porttitor congue aliquet. Donec congue semper diam, 
         </p>
-        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#myModal">Ajouter au panier</button>
       </div>
-      <div class="modal" id="myModal">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <!-- Modal Header -->
-            <div class="modal-header">
-              <h4 class="modal-title">Chocolate</h4>
-              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-            </div>
-            <!-- Modal body -->
-            <div class="modal-body">
-              Votre article a bien été ajouté au panier.
-            </div>
-            <!-- Modal footer -->
-            <div class="modal-footer">
-              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+    </div>
+    <div class="row my-3">
+      <div class="col-sm-3">        
+        <label for="qty">Quantité:
+          <select class="form-control input-sm" size="1" id="qty">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option>10</option>
+          </select>
+        </label> 
+      </div> 
+      <div class="col-sm-5"> 
+        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#myModal">Ajouter au panier</button>
+        <div class="modal" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Chocolate</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                Votre article a été ajouté avec succés au panier.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+              </div>
             </div>
           </div>
-        </div>
+        </div>  
       </div>
     </div>
     <hr> 
     <div class="row">
       <h3>Tablette chocolat au lait crousti</h3>
       <div class="col-sm-3">
-        <img class="image-gauche" src="img/choc4.png" alt="Tablette4" style="width:150px;">
-        <div class="form-group">
-          <label for="qty">Quantité:
-          <select class="form-control input-sm" size="1" id="qty">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-            <option>6</option>
-            <option>7</option>
-            <option>8</option>
-            <option>9</option>
-            <option>10</option>
-          </select>
-        </div>
+        <img class="image-gauche" src="img/choc4.png" alt="Tablette4" style="width:150px;">        
       </div>
       <div class="col-sm-5">
         <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -238,48 +229,50 @@
           Aliquam erat volutpat. In commodo viverra nibh, ac lacinia eros mattis at. 
           Pellentesque venenatis nunc porttitor congue aliquet. Donec congue semper diam, 
         </p>
-        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#myModal">Ajouter au panier</button>
       </div>
-      <div class="modal" id="myModal">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <!-- Modal Header -->
-            <div class="modal-header">
-              <h4 class="modal-title">Chocolate</h4>
-              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-            </div>
-            <!-- Modal body -->
-            <div class="modal-body">
-              Votre article a bien été ajouté au panier.
-            </div>
-            <!-- Modal footer -->
-            <div class="modal-footer">
-              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+    </div>
+    <div class="row my-3">
+      <div class="col-sm-3">        
+        <label for="qty">Quantité:
+          <select class="form-control input-sm" size="1" id="qty">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option>10</option>
+          </select>
+        </label> 
+      </div> 
+      <div class="col-sm-5"> 
+        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#myModal">Ajouter au panier</button>
+        <div class="modal" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Chocolate</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                Votre article a été ajouté avec succés au panier.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+              </div>
             </div>
           </div>
-        </div>
+        </div>  
       </div>
     </div>
     <hr> 
     <div class="row">
       <h3>Tablette chocolat noir craquant</h3>
       <div class="col-sm-3">
-        <img class="image-gauche" src="img/choc5.png" alt="Tablette5" style="width:150px;">
-        <div class="form-group">
-          <label for="qty">Quantité:
-          <select class="form-control input-sm" size="1" id="qty">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-            <option>6</option>
-            <option>7</option>
-            <option>8</option>
-            <option>9</option>
-            <option>10</option>
-          </select>
-        </div>
+        <img class="image-gauche" src="img/choc5.png" alt="Tablette5" style="width:150px;">        
       </div>
       <div class="col-sm-5">
         <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -290,26 +283,43 @@
           Aliquam erat volutpat. In commodo viverra nibh, ac lacinia eros mattis at. 
           Pellentesque venenatis nunc porttitor congue aliquet. Donec congue semper diam, 
         </p>
-        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#myModal">Ajouter au panier</button>
       </div>
-      <div class="modal" id="myModal">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <!-- Modal Header -->
-            <div class="modal-header">
-              <h4 class="modal-title">Chocolate</h4>
-              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-            </div>
-            <!-- Modal body -->
-            <div class="modal-body">
-              Votre article a bien été ajouté au panier.
-            </div>
-            <!-- Modal footer -->
-            <div class="modal-footer">
-              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+    </div>
+    <div class="row my-3">
+      <div class="col-sm-3">        
+        <label for="qty">Quantité:
+          <select class="form-control input-sm" size="1" id="qty">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option>10</option>
+          </select>
+        </label> 
+      </div> 
+      <div class="col-sm-5"> 
+        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#myModal">Ajouter au panier</button>
+        <div class="modal" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Chocolate</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                Votre article a été ajouté avec succés au panier.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+              </div>
             </div>
           </div>
-        </div>
+        </div>  
       </div>
     </div>
   </div>
