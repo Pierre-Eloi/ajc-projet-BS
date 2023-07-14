@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <style>
+  
+  .moved { transform: translate(-15px, 0px); }
+  .movedbis { transform: translate(20px, 0px); }
+  
+  </style>
+
   <title>Tablettes_page</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -32,15 +39,24 @@
         </ul>
         <form class="d-flex">
           <input class="form-control me-2" type="text" placeholder="Search">
-          <button class="btn btn-primary" type="button">Search</button>
+          <button class="rounded-pill btn btn-primary" type="button">Search</button>
         </form>
         <form>
+          
           <div class=" container btn-group ml-3">
             <a href="signUp.html">
-              <button type="button" class="btn btn-light">Sign Up</button>
+              <div class="movedbis">
+              <button type="button" class="rounded-pill btn btn-success"
+              style="width:100px">Sign Up</button>
+            </div>
             </a>
+            </div>
             <a href="logIn.html">
-              <button type="button" class="btn btn-success">Log in</button>
+              </div>
+              <div class="moved">
+                <button type="button" class="rounded-pill btn btn-secondary" 
+                style="width:100px">Log in</button>
+              </div>
             </a>
           </div>
         </form>         
@@ -324,7 +340,10 @@
     </div>
   </div>
   <footer>
-    <div class="footer-copyright text-center py-3 text-white-50 bg-dark">© 2023 Droits protégés</div>
+    <div class="footer-copyright text-center py-3 text-white-50 bg-dark">
+      🕿 : 55-55-555-555 | ✉️ : supportclient@chocolate.com |
+      Adresse : 5 rue Des Pralines - 19850 Chocoville      © 2023 Droits protégés
+    </div>
   </footer>
 </body>
 </html>
