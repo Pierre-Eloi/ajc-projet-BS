@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
  <head>
+  <style>
+    .moved { transform: translate(-120px, 0px); }
+    .movedbis { transform: translate(70px, 0px); }
+  </style>
     <title>Creation_compte_page</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,16 +22,62 @@
         color: black;
         font-weight: bold;
         padding: 4px;
-        /*text-transform: uppercase;*/
-        font-family: Verdana, Arial, Helvetica, sans-serif;
       }   
       </style>
-
  </head>
  <body>
-  <h1 class="text-center">Formulaire de création de votre compte Chocolate</h1>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="home.html">
+        <img src="img/logo.jpg" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="tablettes.html">Tablettes</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Nos produits</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="tablettes.html">tablettes</a></li>
+              <li><a class="dropdown-item" href="pralines.html">pralines</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search">
+          <button class="rounded-pill btn btn-primary" type="button">Search</button>
+        </form>
+        <form>
+          <div class=" container btn-group ml-3">
+            <a href="logIn.html">
+              <div class="movedbis">
+                <style>.btn-light{background-color:	#D9EEE1; display:inline}</style> 
+              <button type="button" title = "Login to your account" class="rounded-pill btn btn-light"
+              style="width:125px">Log in</button>
+            </div>
+            </a>
+            </div>
+            <a href="home.html">
+              </div>
+              <div class="moved">
+                  <style>.btn-success{background-color:	#04AA6D; display:inline }</style> 
+                <button type="button" title = "Go to Home page"  class="rounded-pill btn btn-success"
+                style="width:90px">Home</button>
+              </div>
+            </a>
+          </div>
+        </form>         
+      </div>
+    </div>      
+  </nav> 
     <form>
       <hr>
+      <br><br><br>
+      <h1 class="text-center">Formulaire de création de votre compte Chocolate</h1>
       <label for = "name">Nom</label>
       <input type = "text" id = "name" name = "name">
       <label for = "surname">Prenom</label>
@@ -48,33 +98,34 @@
         <input type="text" id="rue">
         <label for="codpost">Code postal</label>
         <input type="text" id="codpost">
-        <label for="password">Mod de passe</label>
+        <label for="password">Mot de passe</label>
         <input type="text" id="password">
       </div>
       <hr>
     </form>
-    <div class="col-sm-5"> 
-      <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#myModal">Creation du compte</button>
-      <div class="modal" id="myModal">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h4 class="modal-title">Bienvenue chez Chocolate !</h4>
-              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-            </div>
-            <div class="modal-body">
-              Votre compte a bien été créé.
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+    <div class="container mt-3">
+      <div class="d-grid">
+        <button type="button" class="rounded-pill btn btn-secondary btn-block"data-bs-toggle="modal" data-bs-target="#myModal">Creation du compte</button>
+        <div class="modal" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Bienvenue chez Chocolate !</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                Votre compte a bien été créé.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+              </div>
             </div>
           </div>
         </div>
       </div>  
     </div>
-    <br><br><br><br><br><br>
-    <br><br><br><br><br><br>
-    <br><br>
+    <br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
     <footer>
       <div class="footer-copyright text-center py-3 text-white-50 bg-dark">
         🕿 : 55-55-555-555 | ✉️ : supportclient@chocolate.com |
